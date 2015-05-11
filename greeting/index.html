@@ -23,7 +23,7 @@
 		-webkit-animation: zoom 1s infinite;
 	}
 	.message {
-		padding-top: 50px;
+		padding-top: 10px;
 		font-family: myfont;
 		color: white;
 		width: 80%;
@@ -33,12 +33,23 @@
 		letter-spacing: 1px;
 	}
 
+	@keyframes zoom {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(0.5);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
 	@-webkit-keyframes zoom {
 		0% {
 			transform: scale(1);
 		}
 		50% {
-			transform: scale(1.1);
+			transform: scale(0.9);
 		}
 		100% {
 			transform: scale(1);
