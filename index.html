@@ -1,1 +1,44 @@
-Hello world
+<html>
+<head>
+	<title>Node Alpha</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+	body {
+		background-color: rgba(0,0,0,1);
+		padding: 150px;
+		text-align: center; 
+	}
+
+	h1 {
+		color: rgb(0, 197, 255);
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 36px;
+	}
+
+	button {
+		background-color: transparent;
+		color: white;
+		border: 0;
+		padding:2% 5%;
+		border-radius: 15px; 
+		outline: none;
+		color: rgb(0, 197, 255);
+		font-size: 18px;
+	}
+
+	button:active {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+	</style>
+	<script type="text/javascript">
+		function navigate () {
+			location.replace("greeting/index.html")
+		}
+	</script>
+</head>
+<body>
+	<h1>Hi Kalai</h1>
+	<button type="button" onclick="navigate()">Please Click Here Dear...!!</button>
+</body>
+</html>
