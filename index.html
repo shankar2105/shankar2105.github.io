@@ -2,8 +2,61 @@
 <head>
 	<title>Node Alpha</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+	@font-face {
+		font-family: "Jenna";
+		src : url(font/JennaSue.ttf);
+	}
+	body {
+		background: #222;
+	}
+	h1.title {
+		padding: 100px 0;
+		text-align: center;
+		color: #222;
+		font-size: 80px;
+		font-family: "Jenna";
+		display: block;
+		animation: animate 5s infinite;
+		-webkit-animation: animate 5s infinite;
+		letter-spacing: 4px;
+	}
+	.base {
+		position: absolute;
+		width: 80%;
+		height: 90%;
+		left: 10%;
+		background-image: url("images/bg.jpg");
+		background-size: cover;
+	}
+	@keyframes animate {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(360deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+	@-webkit-keyframes {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(360deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+	</style>
 </head>
 <body>
-	<h1>Welcome to the world of Node</h1>
+	<div class="base">
+		<h1 class="title">Many More Happy Return Of The Day Indu Akka</h1>	
+	</div>	
 </body>
 </html>
